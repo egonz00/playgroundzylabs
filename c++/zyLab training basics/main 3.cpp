@@ -7,7 +7,10 @@ int main() {
    
    cin >> userNum;
    
-   userNumSquared = userNum * userNum;  // Bug here; fix it when instructed
+   //userNumSquared = userNum + userNum;  // Bug here; fix it when instructed
+   
+   //solution
+   userNumSquared = userNum * userNum; 
    
    cout << userNumSquared<< endl;      // Output formatting issue here; fix it when instructed
 
